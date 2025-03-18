@@ -206,4 +206,4 @@ Me chamo Eduardo de Almeida Freitas, tenho 20 anos e sou natural de Paulínia - 
   <a href="https://www.linkedin.com/in/rafaella-ballerini-45875016a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
-
+<img src="https://raw.githubusercontent.com/DuhFr3itas/DuhFr3itas/output/snake.svg" alt="Snake animation" />
