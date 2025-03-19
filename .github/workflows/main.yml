@@ -18,14 +18,16 @@ jobs:
         id: snake-gif
         with:
           github_user_name: DuhFr3itas
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          gif_out_path: dist/github-contribution-grid-snake.gif
 
-      - name: Commit das mudanças
+      - name: Configurar Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit das mudanças
+        run: |
           git add dist/
           git commit -m "Atualizando snake animation" || echo "Nenhuma mudança para commit"
           git push origin main
