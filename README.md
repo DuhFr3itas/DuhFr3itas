@@ -204,6 +204,8 @@ Me chamo Eduardo de Almeida Freitas, tenho 20 anos e sou natural de Paulínia - 
   <a href="https://instagram.com/duh_alm3ida" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:freitas.eduardo2605@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/rafaella-ballerini-45875016a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  
 </div>
-<img src="https://raw.githubusercontent.com/DuhFr3itas/DuhFr3itas/output/snake.svg" alt="Snake animation" />
+
+![Snake animation](https://github.com/DuhFr3itas/DuhFr3itas/blob/output/github-contribution-grid-snake.svg)
+[![readme](hrrps://github-readme-stats.vercel.app/api/pin/?username=DuhFr3itas&repo=DuhFr3itas&theme=react)](https://github.com/DuhFr3itas/DuhFr3itas)
+
