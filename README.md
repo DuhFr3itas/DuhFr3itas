@@ -207,5 +207,7 @@ Me chamo Eduardo de Almeida Freitas, tenho 20 anos e sou natural de Paulínia - 
 </div>
 
 ![Snake animation](https://github.com/DuhFr3itas/DuhFr3itas/blob/output/github-contribution-grid-snake.svg)
-[![readme](hrrps://github-readme-stats.vercel.app/api/pin/?username=DuhFr3itas&repo=DuhFr3itas&theme=react)](https://github.com/DuhFr3itas/DuhFr3itas)
+
+[![readme](https://github-readme-stats.vercel.app/api/pin/?username=DuhFr3itas&repo=DuhFr3itas&theme=react)](https://github.com/DuhFr3itas/DuhFr3itas)
+
 
