@@ -2,7 +2,6 @@ name: Snake Game
 
 on:
   schedule:
-    # Atualiza a cada 5 horas
     - cron: "0 */5 * * *"
   workflow_dispatch:
 
@@ -14,21 +13,26 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Gerar Snake Game
-        uses: Platane/snk/svg-only@v3  # Usa a versão corrigida sem o erro de set-output
+        uses: Platane/snk@master
         with:
           github_user_name: DuhFr3itas
-          outputs: dist/github-contribution-grid-snake.svg
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Configurar Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Criar branch output (se não existir)
+        run: |
+          git fetch origin output || git checkout -b output
+          git pull origin output || echo "Branch output ainda não existe, criando agora."
+
       - name: Commit das mudanças
         run: |
           git add dist/
           git commit -m "Atualizando snake animation" || echo "Nenhuma mudança para commit"
-          git push origin main
+          git push origin output  # Publica na branch output
 
       - name: Publicar no GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
